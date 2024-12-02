@@ -1,0 +1,15 @@
+Running the server, server takes at least 1 parameters which is the number of players.
+
+java -jar BatBot161.jar  2  
+  starts it up with 2 players
+
+running the client jar  parameters are hostname and port number.  
+  the port is always 3012, localhost if you are running on the same machine.
+java -jar strafe.jar localhost 3012
+
+
+for teams you need an extra parameter, the number of players per team.
+  2 teams of 2 players
+java -jar BatBot161.jar  4  2
+  2 teams, where it's 3 on one team and 1 on the second is
+java -jar BatBot161.jar  4  3  
